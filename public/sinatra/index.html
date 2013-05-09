@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Sinatra</title>
+  <link href="assets/sinatra.css" rel="stylesheet">
+  <script src="assets/sinatra.js"></script>
+</head>
+
+<body class="deck-container">
+
+<!-- Begin slides. Just make elements with a class of slide. -->
+
+<section id="topic" class="slide">
+  <div class="vcenter">
+    <h1>Sinatra</h1>
+  </div>
+</section>
+<section id="what_is_sinatra" class="slide"> 
+  <div class="vcenter">
+    <h2>Sinatra is a web framework.<br /> Simply put, it's a library that allows you to write web applications with a minimum of red tape.</h2>
+    <h3>You simply load Sinatra, and start coding application logic.</h3>
+  </div>
+</section>
+
+<section id="what_it_is_not" class="slide">
+  
+  <div class="vcenter">
+    <h2>Instead of talking about what Sinatra is, let's talk about what Sinatra isn't.</h2>
+    <ul>
+      <li>Big - Sinatra is tiny. Really tiny. Around 1500 lines of code. Rails is closer to 100,000 lines of code. That's almost 1/100th the size of Rails.</li>
+      <li>The answer to your problems - Sinatra doesn't solve any new problems. It doesn't do anything that Rails or other frameworks can't. It's just a web framework.</li>
+      <li>The right tool for every job - Other frameworks are the right tools for other job. Large-scale projects are better suited toward using something like Rails. Sinatra is suited for small-scale projects.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="how_it_works" class="slide">
+  <div class="vcenter">
+    <h1>work like this:</h1>
+  <script type="syntaxhighlighter" class="brush: bash">
+  <![CDATA[
+    mkdir some_sinatra_staff  # => make dir and cd in it
+    touch .ruby-version       # => specify the ruby you whant
+    touch Gemfile             # => make Gemfile add stuff you need to it
+        # Gemfile
+        source: rubygems
+        gem "thin"...
+        AND shit this is not right and there is no dogma...
+    Then make your app.rb     # => http://www.sinatrarb.com/intro.html
+  </script>
+  </div>
+</section>
+<section id="links" class="slide">
+  
+  <div class="vcenter">
+    <h3>Links:</h3>
+      <p><a href="http://www.sinatrarb.com/">Sinatra</a></p>
+      <p><a href="http://en.wikipedia.org/wiki/Sinatra_(software)">WIKI</a></p>
+      <p><a href="http://rubygarage.github.io/">This slides</a></p>
+      <p><a href="https://tutsplus.com/course/simple-sinatra/">Tutsplus.com Simple-sinatra</a></p>
+  </div>
+</section>
+
+
+<!-- End slides. -->
+
+
+<!-- deck.navigation snippet -->
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+
+<!-- deck.status snippet -->
+<p class="deck-status">
+  <span class="deck-status-current"></span>
+  /
+  <span class="deck-status-total"></span>
+</p>
+
+<!-- deck.hash snippet -->
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+</body>
+</html>
+

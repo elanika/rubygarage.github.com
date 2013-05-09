@@ -49,6 +49,10 @@ class App < Sinatra::Base
     erb :rack
   end
 
+  get "/sinatra" do
+    erb :sinatra
+  end
+
   helpers do
     include Sprockets::Helpers
   end
